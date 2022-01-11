@@ -6,6 +6,7 @@
   "scripts": {
     "start:dev": "",
     "start": "node server.js",
+    "heroku-prebuild": "npm install --dev",
     "heroku-postbuild": "webpack -p",
     "server": "",
     "build": "",
