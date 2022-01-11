@@ -19,7 +19,9 @@ const matchCallback = ({ request }) => {
     // CSS
     request.destination === "style" ||
     // JavaScript
-    request.destination === "script"
+    request.destination === "script" ||
+    //worker
+    request.destination === "worker"
   );
 };
 
